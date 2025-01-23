@@ -7,3 +7,17 @@ html,body{
     height: 100%;
     width: 100%;
 }
+
+#nav{
+    height: 140px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    padding: 0 50px;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+}
+#nav img{
+  height: 100px;
+}
