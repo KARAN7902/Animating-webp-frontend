@@ -35,5 +35,14 @@ video{
     height: 100%;
     width: 100%;
     object-fit: cover;
+    position: fixed;
     /*this property fits the object to in the parent element or covers the parent height and width*/
+}
+#main{
+    position: relative;
+    background-color: rgba(0,0,0,0.4);
+}
+#page1{
+    height: 100vh;
+    width: 100%;
 }
