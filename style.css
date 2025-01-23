@@ -36,6 +36,7 @@ video{
     width: 100%;
     object-fit: cover;
     position: fixed;
+    z-index: -1;
     /*this property fits the object to in the parent element or covers the parent height and width*/
 }
 #main{
@@ -51,7 +52,30 @@ video{
     flex-direction: column;
     position: relative;
 }
-#page1 h4{
+#page1 h1{
     font-size: 140px;
     font-weight: 900;
+    margin:10px 0 20px 0;
+    position: relative;
+}
+#page1 h1::before{
+    content: 'EAT. DRINK. PLAY.';
+    /* this property adds the content before the the text in the h1 tag */
+    position:absolute;
+    color: black;
+    top: -6px;
+    left: -6px;
+    z-index: -1;
+    /* it highlight the font border 
+      we have to give width and color
+    */
+    -webkit-text-stroke: 2px #95c11e;
+}
+#page1 h1::selection{
+    background-color: #fff;
+    color:#91b508;
+}
+#page1 h2{
+    font-size: 40px;
+    text-transform: capitalize;
 }
