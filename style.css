@@ -22,6 +22,7 @@ html,body{
     gap: 50px;
     /* this property adds the gap between elements */
     position: fixed;
+    z-index: 99;
 }
 #nav img{
   height: 100px;
