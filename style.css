@@ -161,7 +161,7 @@ video {
     from{
         transform: translateX(0);
     }to{
-        transform: translate(-100%);
+        transform: translateX(-100%);
     }
 }
 #about-us{
@@ -195,7 +195,7 @@ video {
 }
 #cards-container{
     height: 60vh;
-    background-color:red;
+    background-color:black;
     display: flex;
     align-items: center;
     justify-content: center;
