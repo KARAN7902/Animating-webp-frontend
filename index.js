@@ -1,14 +1,16 @@
 var crsr= document.querySelector('#cursor');
+var crsrBlr= document.querySelector('#cursor-blr');
 
 document.addEventListener('mousemove',function(dets){
     crsr.style.left=dets.x+"px"
     //this gives the x axis position of mouse to the crsr 
     crsr.style.top=dets.y+"px";
     //this gives the y axis position of mouse to the crsr 
+    crsrBlr.style.left=dets.x-150+"px"
+    //this gives the x axis position of mouse to the crsr 
+    crsrBlr.style.top=dets.y-150+"px";
 })
-//this function work when we hover the mouse the cursor will move arround the arrow 
-
-
+//this function work when we hover the mouse the cursor will move arround the arrow cursor-blr
 
 
 
