@@ -22,8 +22,8 @@ body {
     /* box-shadow: 2px 2px 50px #95c11e; */
 }
 #cursor-blr{
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     background-color: #4a6306;
     border-radius: 50%;
     position: fixed;
