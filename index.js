@@ -2,9 +2,11 @@ var crsr= document.querySelector('#cursor');
 
 document.addEventListener('mousemove',function(dets){
     crsr.style.left=dets.x+"px"
+    //this gives the x axis position of mouse to the crsr 
     crsr.style.top=dets.y+"px";
+    //this gives the y axis position of mouse to the crsr 
 })
-
+//this function work when we hover the mouse the cursor will move arround the arrow 
 
 
 
