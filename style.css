@@ -178,6 +178,7 @@ video {
     width: 220px;
     border-radius: 20px;
     object-fit: cover;
+    position: relative;
 }
 #about-us-in{
     text-align: center;
