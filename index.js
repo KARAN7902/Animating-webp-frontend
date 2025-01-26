@@ -17,8 +17,8 @@ gsap.to("#main",{
         trigger:"#main",
         scroller:"body",
         // markers:true,
-        start:"top -30%",
-        end:"top -100%",
+        start:"top -25%",
+        end:"top -75%",
         scrub:2,
     }
 })
