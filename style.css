@@ -258,7 +258,7 @@ video {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background:#95c11e;
+    background:linear-gradient(to left bottom,#95c11e,#24a536);
     position: relative;
     z-index: 10;
   }
