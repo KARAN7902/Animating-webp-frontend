@@ -10,7 +10,6 @@ html,
 body {
     height: 100%;
     width: 100%;
-    perspective: 800px;
 }
 #cursor{
     height: 20px;
@@ -260,6 +259,8 @@ video {
     align-items: center;
     justify-content: space-between;
     background:#95c11e;
+    position: relative;
+    z-index: 10;
   }
   #green-div h4{
     width: 45%;
@@ -267,10 +268,12 @@ video {
     line-height: 50px;
     font-size: 23px;
     text-transform: uppercase;
+    font-weight: 800;
+    color: #000;
   }
   #green-div img{
     height: 100%;
     object-fit: cover;
     width: 14%;
-    font-weight: 800;
+   
   }
