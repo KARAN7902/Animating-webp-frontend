@@ -254,3 +254,14 @@ video {
   .card:hover{
     transform: rotate3d(-1,1,0,20deg);
   }
+  #green-div{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #green-div h4{
+    width: 50%;
+    font-size: 23px;
+    text-transform: uppercase;
+  }
