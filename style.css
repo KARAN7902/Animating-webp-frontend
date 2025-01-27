@@ -10,6 +10,7 @@ html,
 body {
     height: 100%;
     width: 100%;
+    perspective: 800px;
 }
 #cursor{
     height: 20px;
@@ -249,4 +250,7 @@ video {
   }
   .card:hover  .overlay{
     opacity: 1;
+  }
+  .card:hover{
+    transform: rotate3d(-1,1,0,20deg);
   }
