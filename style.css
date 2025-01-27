@@ -119,7 +119,7 @@ video {
 }
 
 #page2 {
-    height: 100vh;
+   min-height: 100vh;
     width: 100%;
     z-index: 10;
 }
@@ -195,21 +195,21 @@ video {
 }
 #cards-container{
     height: 60vh;
-    background-color:black;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 70px;
+    position: relative;
+    z-index: 10;
 }
 .card{
     background-size: cover;
     background-position: center;
-}
-.card{
     height: 80%;
     width: 28%;
-    background-color: blue;
+    /* background-color: blue; */
     border-radius: 20px;
+    transition: all ease 0.6s;
 }
 #card1{
     background-image: url();
@@ -223,4 +223,30 @@ video {
   }
   #card3 {
     background-image: url(https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/home-lessons-1024x682.jpg?strip=all&lossy=1&sharp=1&ssl=1);
+  }
+  .overlay{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-color: #95c11e;
+    padding-top: 130px;
+    padding: 130px 30px 30px 30px;
+    border-radius: 20px;
+  opacity: 0;
+  transition: all ease 0.6s;
+  }
+  .overlay h4{
+    color: #000;
+    font-size: 40px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+  .overlay p{
+    color: #000;
+    font-size: 18px;
+  }
+  .card:hover  .overlay{
+    opacity: 1;
   }
