@@ -297,3 +297,12 @@ video {
     position: absolute;
     height: 60px;
 }
+#page3 #img1{
+    left :15%;
+    top: 20%;
+}
+
+#page3 #img2{
+   bottom: 30%;
+   right: 15%;
+}
