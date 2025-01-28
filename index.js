@@ -56,3 +56,30 @@ elem.addEventListener('mouseleave',function(){
     crsr.style.transition="scale 0.8s ease";
 })
 })
+
+gsap.from('#about-us img ,#about-us-in',{
+    y:50,
+    opacity:0,
+  duration:1,
+    scrollTrigger:{
+        trigger:"#about-us",
+        scroller:"body",
+        markers:true,
+        start:"top 60%",
+        end:"top 58%",
+        scrub:3,
+    }
+})
+gsap.from('#about-us img ,#about-us-in',{
+    y:50,
+    opacity:0,
+  duration:1,
+    scrollTrigger:{
+        trigger:"#about-us",
+        scroller:"body",
+        markers:true,
+        start:"top 60%",
+        end:"top 58%",
+        scrub:3,
+    }
+})
