@@ -9,6 +9,7 @@ document.addEventListener('mousemove',function(dets){
     crsrBlr.style.left=dets.x-200+"px"
     //this gives the x axis position of mouse to the crsr 
     crsrBlr.style.top=dets.y-200+"px";
+    // crsrBlr.style.transition="left,top 0.1s ease-in-out";
 })
 //this function work when we hover the mouse the cursor will move arround the arrow cursor-blr
 
