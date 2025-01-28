@@ -2,7 +2,7 @@ var crsr= document.querySelector('#cursor');
 var crsrBlr= document.querySelector('#cursor-blr');
 
 document.addEventListener('mousemove',function(dets){
-    crsr.style.left=dets.x+"px"
+    crsr.style.left=dets.x+30+"px"
     //this gives the x axis position of mouse to the crsr 
     crsr.style.top=dets.y+"px";
     //this gives the y axis position of mouse to the crsr 
@@ -46,6 +46,12 @@ elem.addEventListener('mouseenter',function(){
     crsr.style.scale=3;
     crsr.style.border="0.1px solid #fff";
     crsr.style.backgroundColor="transparent";
+    crsr.style.transition="scale 0.8s ease";
+})
+elem.addEventListener('mouseleave',function(){
+    crsr.style.scale=1;
+    crsr.style.border="0px solid #95c11e";
+    crsr.style.backgroundColor="#95c11e";
     crsr.style.transition="scale 0.8s ease";
 })
 })
