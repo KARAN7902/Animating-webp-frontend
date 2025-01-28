@@ -40,3 +40,4 @@ gsap.to("#main",{
         scrub:2,
     }
 })
+document.querySelectorAll('#nav h4')
