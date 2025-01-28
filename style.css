@@ -284,6 +284,7 @@ video {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 #page3>p{
     font-size: 35px;
@@ -291,4 +292,8 @@ video {
     width: 55%;
     line-height: 45px;
     text-align: center;
+}
+#page3 img{
+    position: absolute;
+    height: 60px;
 }
