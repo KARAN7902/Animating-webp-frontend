@@ -83,16 +83,29 @@ gsap.from('.card',{
         scrub:2,
     }
 })
-gsap.from('.card',{
-    scale:0.8,
-     opacity:0,
-   duration:1,
+gsap.from('#img1',{
+    y:-70,
+    x:-70,
+
      scrollTrigger:{
-         trigger:".card",
+         trigger:"#img1",
          scroller:"body",
          // markers:true,
-         start:"top 60%",
-         end:"top 58%",
+         start:"top 55%",
+         end:"top 45%",
+         scrub:2,
+     }
+ })
+ gsap.from('#img2',{
+    y:70,
+    x:70,
+
+     scrollTrigger:{
+         trigger:"#img2",
+         scroller:"body",
+         // markers:true,
+         start:"top 55%",
+         end:"top 45%",
          scrub:2,
      }
  })
