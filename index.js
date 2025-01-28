@@ -2,7 +2,7 @@ var crsr= document.querySelector('#cursor');
 var crsrBlr= document.querySelector('#cursor-blr');
 
 document.addEventListener('mousemove',function(dets){
-    crsr.style.left=dets.x+30+"px"
+    crsr.style.left=dets.x+20+"px"
     //this gives the x axis position of mouse to the crsr 
     crsr.style.top=dets.y+"px";
     //this gives the y axis position of mouse to the crsr 
