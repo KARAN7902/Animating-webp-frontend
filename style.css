@@ -306,6 +306,8 @@ video {
 
 .page4{
     display: flex;
+    background-size: cover;
+    background-position: center;
     background-color:#000;
     width: 100%;
     justify-content: space-evenly;
