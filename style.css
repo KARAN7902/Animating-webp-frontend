@@ -318,3 +318,8 @@ video {
     height: 100px;
     width:400px ;
 }
+#card-1 img{
+    height: 145px ;
+   width: 372px; 
+   object-fit: cover;
+}
