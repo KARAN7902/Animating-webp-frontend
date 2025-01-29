@@ -312,6 +312,7 @@ video {
     justify-content: center;
     gap: 70px;
     position: relative;
+    background-color: #000;
   }
   .elem {
     height: 70%;
