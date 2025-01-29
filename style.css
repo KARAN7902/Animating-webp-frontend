@@ -306,3 +306,11 @@ video {
    bottom: 30%;
    right: 15%;
 }
+
+.page4{
+    display: flex;
+    background: #000;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
