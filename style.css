@@ -302,6 +302,7 @@ video {
 }
 
 #page3 #img2{
+    position: absolute;
    bottom: 30%;
    right: 15%;
 }
