@@ -304,27 +304,44 @@ video {
    right: 15%;
 }
 
-.page4{
-    display: flex;
-    background-size: cover;
-    background-position: center;
-    background-color:red;
-    height: 50vh;
+#page4 {
+    height: 30vh;
     width: 100%;
-    justify-content: space-evenly;
+    display: flex;
     align-items: center;
-}
-.cards{
-    height: 145px;
-    width:372px ;
-    /* position: relative; */
-}
-#card-1{
-   position: relative;
-  /* background-image: url("); */
- object-fit: cover;
-}
-.text-card-1{
+    justify-content: center;
+    gap: 70px;
+    position: relative;
+  }
+  .elem {
+    height: 70%;
+    width: 26%;
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+  }
+  
+  .elem h3 {
     height: 100%;
     width: 100%;
-}
+    background-color: #95c11e;
+    display: flex;
+    color: #000;
+    font-weight: 800;
+    align-items: center;
+    justify-content: center;
+    transition: all ease 0.5s;
+    font-size: 2vw;
+    position: absolute;
+    z-index: 10;
+  }
+  .elem img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+    scale: 1.1;
+  }
+  .elem :hover h3{
+ opacity: 0;
+  }
