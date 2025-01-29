@@ -83,29 +83,29 @@ gsap.from('.card',{
         scrub:2,
     }
 })
-// gsap.from('#img-1',{
-//     y:-70,
-//     x:-70,
-
-//      scrollTrigger:{
-//          trigger:"#img1",
-//          scroller:"body",
-//          // markers:true,
-//          start:"top 55%",
-//          end:"top 45%",
-//          scrub:2,
-//      }
-//  })
- gsap.from('#img2',{
+gsap.from('#img1,#img2',{
     y:70,
     x:70,
 
      scrollTrigger:{
-         trigger:"#img2",
+         trigger:"#img1,#img2",
          scroller:"body",
-         // markers:true,
+        //  markers:true,
          start:"top 55%",
          end:"top 45%",
          scrub:2,
      }
  })
+//  gsap.from('#img2',{
+//     y:70,
+//     x:70,
+
+//      scrollTrigger:{
+//          trigger:"#img2",
+//          scroller:"body",
+//          markers:true,
+//          start:"top 60%",
+//          end:"top 40%",
+//          scrub:2,
+//      }
+//  })
