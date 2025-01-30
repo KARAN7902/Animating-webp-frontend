@@ -383,6 +383,7 @@ footer img{
   .footer-container{
     height: 100%;
     width: 100%;
+    margin-top: 3%;
     top:0px;
     margin-left: 70px;
     position: absolute;
@@ -440,5 +441,8 @@ color: #000;
   }
  #copyr{
     position: absolute;
-    top: 0px;
+    font-weight: 200;
+    top: 380px;
+    font-size: larger;
+    color: #000;
  }
