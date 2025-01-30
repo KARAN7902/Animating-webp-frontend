@@ -374,7 +374,7 @@ video {
     height: 40vh;
     width: 100%;
     position: relative;
-    background-color: #95c11e;
+    background:linear-gradient(to right top,#95c11e,#24a536);
   }
 footer img{
     height: 40vh;
@@ -425,12 +425,15 @@ footer img{
     transform: scale(1);
   }
   .icons{
-    width: 100%;
-    padding-left: 57px;
+    width: 60%;
+    margin-left: 20%;
+    /* padding-left: 60px; */
   }
   .icons i{
     float: left;
+    margin: 5px;
     color: #000;
+    font-size: large;
     /* width: 100%; */
     /* text-align: left; */
   }
