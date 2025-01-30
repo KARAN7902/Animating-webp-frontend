@@ -357,10 +357,15 @@ video {
  color:black;
  position: absolute;
  top:-40px;
- font-family: Popins;
+ font-family:Raleway;
  letter-spacing: 10px;
  font-size:100px;
  font-weight: 900;
  -webkit-text-stroke: white 1px;
+ transition: all ease 0.5s;
  
+  }
+  #page4:hover h1 {
+ -webkit-text-stroke:#95c11e 1px;
+    
   }
