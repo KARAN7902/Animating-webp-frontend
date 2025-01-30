@@ -446,3 +446,8 @@ color: #000;
     font-size: larger;
     color: #000;
  }
+ #copyr span{
+    margin-left: 700px;
+    color: #000;
+    float:right;
+ }
