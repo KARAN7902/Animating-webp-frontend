@@ -110,13 +110,13 @@ gsap.from('#img1,#img2',{
 //      }
 //  })
 gsap.from('#page4 h1',{
-    scale:1.2,
+     y:50,
      scrollTrigger:{
          trigger:"#page4 h1",
          scroller:"body",
-         markers:true,
-         start:"top 60%",
-         end:"top 50%",
-         scrub:2,
+        //  markers:true,
+         start:"top 75%",
+         end:"top 70%",
+         scrub:3,
      }
  })
