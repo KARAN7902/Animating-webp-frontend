@@ -369,3 +369,8 @@ video {
  -webkit-text-stroke:#95c11e 1px;
     
   }
+
+  footer{
+    height: 40vh;
+    width: 100%;
+  }
