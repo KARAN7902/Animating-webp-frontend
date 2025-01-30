@@ -350,3 +350,17 @@ video {
   .elem:hover img{
    transform: scale(1);
   }
+
+  #page4 h1{
+ text-align: center;
+ text-transform: uppercase;
+ color:black;
+ position: absolute;
+ top:-40px;
+ font-family: Popins;
+ letter-spacing: 10px;
+ font-size:100px;
+ font-weight: 900;
+ -webkit-text-stroke: white 1px;
+ 
+  }
