@@ -373,12 +373,16 @@ video {
   footer{
     height: 40vh;
     width: 100%;
+    position: relative;
     background-color: #95c11e;
   }
-
+footer img{
+    height: 40vh;
+}
   .footer-container{
     height: 100%;
     width: 100%;
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: flex-start;
