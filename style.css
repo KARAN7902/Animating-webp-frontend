@@ -399,28 +399,28 @@ footer img{
   #elem2 h3{
     color: #000;
     /* line-height: 20px; */
-    font-size: 40px;
+    font-size: 30px;
   }
   #elem3 h3{
     color: #000;
     /* line-height: 20px; */
-    font-size: 40px;
+    font-size: 30px;
   }
   #elem4 h6{
     color: #000;
     /* line-height: 20px; */
     font-size: 20px;
+    font-weight: 400;
   }
   #elem4 h4{
-font-size: 40px;
-
+font-size: 30px;
+color: #000;
 
   }
   #elem1 img {
   height: 100px;
   width: 100px;
-  /* transform: scale(1.2); */
-  transition: all ease 0.5s;
+  transition: scale ease 0.5s;
   }
   #elem1:hover img{
     transform: scale(2);
