@@ -438,3 +438,7 @@ color: #000;
     /* width: 100%; */
     /* text-align: left; */
   }
+ #copyr{
+    position: absolute;
+    top: 0px;
+ }
