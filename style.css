@@ -391,38 +391,34 @@ footer img{
     justify-content: flex-start;
     gap: 70px;
   }
-  .elem1{
+  .f-elem{
     height: 300px;
     width: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-    /* background-color: white; */
+    text-transform: uppercase;
   }
-  .elem2{
-    height: 300px;
-    width: 300px;
-    background-color: #000;
+  #elem2 h3{
+    color: #000;
+    /* line-height: 20px; */
+    font-size: 40px;
   }
-  .elem3{
-    height: 300px;
-    width: 300px;
-    background-color: aqua;
+  #elem3 h3{
+    color: #000;
+    /* line-height: 20px; */
+    font-size: 40px;
   }
-  .elem4{
-    height: 300px;
-    width: 300px;
-    background-color: bisque;
+  #elem4 h6{
+    color: #000;
+    /* line-height: 20px; */
+    font-size: 20px;
   }
-  .elem1 img {
+  #elem1 img {
   height: 100px;
   width: 100px;
-  transform: scale(1.2);
+  /* transform: scale(1.2); */
   transition: all ease 0.5s;
   }
-  .elem1 img:hover{
-    transform: scale(1);
+  #elem1:hover img{
+    transform: scale(2);
   }
   .icons{
     width: 60%;
